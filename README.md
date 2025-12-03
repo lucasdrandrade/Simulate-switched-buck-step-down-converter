@@ -31,23 +31,24 @@ Este projeto contém um código para simular o comportamento de um conversor DC-
 Para instalar as bibliotecas necessárias, execute o seguinte comando no terminal:
 
 ```bash
-pip install numpy matplotlib
-
+pip install numpy matplotlib 
+```
 Como executar o código
 
-Salve o arquivo Python com o código da simulação, por exemplo, simulacao_buck.py.
+Salve o arquivo Python com o código da simulação, por exemplo, switched-buck-step-down-converter.py.
 
 Abra o terminal ou prompt de comando na pasta onde o arquivo está salvo.
 
-Execute o script Python:
-
-python simulacao_buck.py
-
+Execute o script Python.
+``` bash
+python switched-buck-step-down-converter.py
+```
 
 ou, se usar Python 3 explicitamente:
 
-python3 simulacao_buck.py
-
+``` bash
+python3 switched-buck-step-down-converter.py
+```
 
 O script irá mostrar no console a tensão final simulada, a tensão teórica e o erro percentual.
 
